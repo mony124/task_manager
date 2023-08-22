@@ -1,0 +1,70 @@
+
+/* InputField */
+.input{
+    display: flex;
+    width: 50%;
+    position: relative;
+    align-items: center;
+}
+
+.inputBox{
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.inputSubmit{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px;
+    border:none;
+    font-size: 15px;
+    background: #2f74c0;
+    color: white;
+    cursor: pointer;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+
+.todos_single{
+    display: flex;
+    padding: 5px;
+    margin-top:15px;
+    background-color: aquamarine;
+}
+.todos_button{
+    margin: 5px;
+}
+.todos_singleText{
+    flex:1;
+    padding: 5px;
+    border: none;
+    font-size: 20px
+}
+
+.todos_heading{
+    font-size: 30px;
+    color: white
+}
+/* Todo List */
+.container{
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
